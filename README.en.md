@@ -176,9 +176,9 @@ Logs are written to:
 - `runtime/launchd.stdout.log`
 - `runtime/launchd.stderr.log`
 
-The current `launchd` setup starts the compiled watcher with Homebrew Node:
+The `launchd` job ultimately starts the compiled watcher entry point. A generic example looks like this:
 
-- `/opt/homebrew/bin/node /Users/chenie/Documents/project/iwatch-voice/dist/src/cli.js watch`
+- `<node-path> <project-root>/dist/src/cli.js watch`
 
 ## APIs
 

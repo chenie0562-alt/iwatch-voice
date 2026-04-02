@@ -176,9 +176,9 @@ VOICE_MEMOS_SHORTCUT_NAME=导出语音备忘录到 Inbox
 - `runtime/launchd.stdout.log`
 - `runtime/launchd.stderr.log`
 
-当前 `launchd` 直接用 Homebrew Node 启动编译后的入口：
+`launchd` 本质上会启动编译后的 watcher 入口，示意如下：
 
-- `/opt/homebrew/bin/node /Users/chenie/Documents/project/iwatch-voice/dist/src/cli.js watch`
+- `<node-path> <project-root>/dist/src/cli.js watch`
 
 ## 接口
 
