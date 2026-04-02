@@ -1,6 +1,6 @@
 # iwatch-voice
 
-[English README](./README.en.md)
+[English](./README.en.md) | [中文](./README.md)
 
 把 Apple Watch / iPhone 语音备忘录中的音频自动转写、整理，并写入 Obsidian Daily。
 

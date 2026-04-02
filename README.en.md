@@ -1,6 +1,6 @@
 # iwatch-voice
 
-[中文说明](./README.md)
+[English](./README.en.md) | [中文](./README.md)
 
 Automatically transcribe, structure, and append Apple Watch / iPhone Voice Memos into your Obsidian Daily notes.
 
